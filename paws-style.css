@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+}
+
+.coverPic {
+  margin-top: 50px;
+  align-items: center;
+}
+
+body {
+  width: 60%;
+  margin: auto;
+}
+
+p {
+  color: #17191a;
+  font-weight: 100;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h2 {
+  margin-top: 50px;
+  font-size: 35px;
+  color: #027bff;
+  font-weight: 400;
+  text-align: left;
+}
+h3 {
+  margin-top: 40px;
+  font-size: 25px;
+  color: #e63168;
+  font-weight: 400;
+  text-align: left;
+}
+
+.blue {
+  color: #027bff;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.contactMe,
+.navIcons {
+  flex: 1;
+}
+.navIcons {
+  text-align: right;
+  vertical-align: center;
+}
+.contactMe a,
+.contactMe img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.contactMe a {
+  color: #027bff;
+  font-weight: 500;
+  text-decoration: none;
+}
+.navIcons a {
+  margin-left: 40px;
+}
+.contactMe img {
+  margin-right: 10px;
+}
+
+/* Preface */
+.preface {
+  margin-top: 100px;
+}
+h1 {
+  margin-top: 50px;
+  font-size: 45px;
+  font-weight: 400;
+  color: #027bff;
+}
+ul {
+  list-style: none;
+  margin-top: 30px;
+  line-height: 40px;
+  font-size: 20px;
+  color: #17191a;
+}
+ul,
+h1 {
+  text-align: left;
+}
+
+/* Prototyping */
+.prototyping ul {
+  list-style-type: circle;
+  text-align: left;
+}
+.prototyping .desktopPhone {
+  position: relative;
+  height: 50%;
+}
+
+/* conclusion */
+.conclusion {
+  bottom: 50px;
+}
+.conclusion ul {
+  list-style-type: circle;
+  text-align: left;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  margin: 100px auto;
+}
+.arrow,
+.top {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: #17191a;
+}
