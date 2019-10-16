@@ -217,7 +217,12 @@ ul {
   text-decoration: none;
   color: #17191a;
 }
-
+.work,
+.work2,
+.work3 {
+  background-repeat: no-repeat;
+  background-position: center;
+}
 /* Footer */
 .footer {
   width: 100%;
@@ -225,6 +230,7 @@ ul {
   display: flex;
   align-items: center;
   flex-direction: column-reverse;
+  text-align: center;
   margin-bottom: 5em;
 }
 .footerIcons,
@@ -233,21 +239,43 @@ ul {
   vertical-align: center;
   font-size: 30px;
   color: #17191a;
+  text-align: center;
 }
 .footerIcons a {
-  margin-left: 45px;
+  margin-left: 40px;
 }
 .footerIcons {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
   margin-top: 25px;
+  right: 5px;
+  align-items: center;
 }
-
+.email {
+  text-align: center;
+  display: inline-block;
+}
 .workImg {
   background-repeat: no-repeat;
   background-position: center;
 }
 
-@media screen and (max-width: 680px) {
-  body {
-    display: none;
+@media screen and (max-width: 350px) {
+  .landing {
+    flex-direction: column;
+  }
+  .workText h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .nav .navIcons {
+    display: inline-block;
+  }
+  .workImg {
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
