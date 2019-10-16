@@ -240,3 +240,14 @@ ul {
 .footerIcons {
   margin-top: 25px;
 }
+
+.workImg {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 680px) {
+  body {
+    display: none;
+  }
+}
